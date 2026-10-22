@@ -1,7 +1,7 @@
 TAX_RATE= 0.09
 def average(prices):
     if not prices:
-        return 0
+        return None
     return sum(prices)/len(prices)
 def total(prices):
     """Cart total,taxes included."""
