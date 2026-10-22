@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-TAX_RATE= 0.21
-=======
 TAX_RATE= 0.09
->>>>>>> update-tax
 def average(prices):
     if not prices:
         return 0
