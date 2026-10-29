@@ -8,3 +8,7 @@ def total(prices):
     return round(sum(prices)*(1+ TAX_RATE),2)
 def apply_discount(prices,percent):
     return [p *(1-percent/100) for p in prices]
+def count(prices):
+    if not prices:
+        return 0
+    return len(prices)
