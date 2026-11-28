@@ -14,14 +14,14 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/moouhcine/shop:8dec651
+          image: ghcr.io/moouhcine/shop:f1742ce
           ports:
             - containerPort: 8000
           env:
             - name: REDIS_HOST
               value: redis
             - name: VERSION
-              value: "8dec651"
+              value: "f1742ce"
 ---
 apiVersion: v1
 kind: Service
